@@ -8,7 +8,7 @@ use League\OAuth2\Client\Token\AccessToken;
 use Psr\Http\Message\ResponseInterface;
 use SumaerJolly\OAuth2\Client\Provider\WaveResourceOwner;
 
-class Todoist extends AbstractProvider
+class Wave extends AbstractProvider
 {
   const ACCESS_TOKEN_RESOURCE_OWNER_ID = 'id';
 
